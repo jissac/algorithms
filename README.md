@@ -1,2 +1,2 @@
 # algorithms
-implementations of various algorithms
+implementations of various algorithms and statistical concepts

@@ -24,6 +24,9 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        hash = {}
+        hmap = {}
         for i in range(len(nums)):
-            if target-nums[i]==0:
+            key = target - nums[i]
+            if key in hmap:
+                return [i, hmap[key]]
+            hmap[nums[i]] = i

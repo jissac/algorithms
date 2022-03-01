@@ -1,6 +1,6 @@
 ## BINARY SEARCH
 ## https://realpython.com/binary-search-python/
-
+## time space complexity: https://iq.opengenus.org/time-complexity-of-binary-search/
 
 
 from __future__ import annotations

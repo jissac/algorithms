@@ -1,7 +1,7 @@
 #
 
 def intersect(nums1: list[int], nums2: list[int]) -> list[int]:
-    if nums1 < nums2:
+    if nums1 > nums2:
         nums1,nums2 = nums2,nums1
     hash1 = {}
     out = []
